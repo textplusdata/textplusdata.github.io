@@ -3,7 +3,7 @@ layout: post
 tags: [admin]
 categories: [wesite]
 date: 2019-09-11
-excerpt: "Having tried and failed with a Get Simple CMS blog back in 2013, this blog uses a Github Pages only solution
+excerpt: "Having tried and failed with a Get Simple CMS blog back in 2013, this blog uses a Github Pages only solution." 
 title: "First post"
 ---
 # First post
