@@ -31,7 +31,9 @@ I couldn't understand why the tags or categories on a post didn't work, but that
 
 One useful thing for posts is to generate an automatic excerpt by using an excerpt seperator, so you can drop the online code in after the first paragraph of text. 
 
-`excerpt_separator: "<!--more-->"`
+```
+excerpt_separator: "<!--more-->"
+```
 
 ## extra crud
 While the theme is great, it assumed that Author descriptions and links to social media are wanted from the start. There is quite a lot to clean up in the "includes" and index.html.
