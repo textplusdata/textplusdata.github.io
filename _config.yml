@@ -159,7 +159,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  - legacy-dataviz
+#  - legacy-dataviz
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
