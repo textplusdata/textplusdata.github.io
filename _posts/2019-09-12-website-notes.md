@@ -4,8 +4,7 @@ tag:
  - jekyll
  - website
  - admin
-categories:
- - website
+
 excerpt_separator: "<!--more-->"
 ---
 
@@ -35,6 +34,6 @@ One useful thing for posts is to generate an automatic excerpt by using an excer
 excerpt_separator: "<!--more-->"
 ```
 
-## extra crud
-While the theme is great, it assumed that Author descriptions and links to social media are wanted from the start. There is quite a lot to clean up in the "includes" and index.html.
+## extra stuff
+While the theme is great, one of the downsides of the greatness is that for a newcomer it's quite overwhelming. Author descriptions and links to social media have to be cleaned up.
 
