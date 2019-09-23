@@ -2,6 +2,12 @@
 <!-- On the post, need to inlclude "dataviz: true" -->
 {% if page.dataviz %}
     <!-- possibly don't need jquery if it causes problem with main theme, as this is part of standard in this theme? Otherwise mix of cdn and local for no real good reason -->  
+  <link rel="stylesheet" type="text/css" href="/legacy-dataviz/dataviz-js/dcjs/css/dc.css"/>           
+  <link rel="stylesheet" type="text/css" href="/legacy-dataviz/dataviz-js/datatables/css/demo_table.css"/>
+   <link rel="stylesheet" type="text/css" href="/legacy-dataviz/dataviz-js/datatables/css/jquery.dataTables.css"/>
+   <link rel="stylesheet" type="text/css" href="/legacy-dataviz/dataviz-js/jquery-chosen/css/chosen.min.css"/>
+
+
   <script src="http://code.jquery.com/jquery.js"></script>
   <script type="text/javascript" language="javascript" src="http://cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.min.js"></script>
   <script type="text/javascript" language="javascript" src="/legacy-dataviz/dataviz-js/jquery-chosen/js/chosen.jquery.min.js"></script>
