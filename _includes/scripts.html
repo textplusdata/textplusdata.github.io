@@ -8,7 +8,11 @@
     <script src="{{ script_path }}"></script>
   {% endfor %}
 {% else %}
-  <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+  <!-- Added possibility to ignore main.js if nomainjs=true on page -->
+    {% unless page.nomainjs %}
+      <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+   {% endunless %}
+<!-- end condition to block main.js -->  
   <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 {% endif %}
 
